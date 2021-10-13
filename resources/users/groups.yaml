@@ -1,0 +1,11 @@
+author:
+  title: Author
+  roles:
+    - access_control_panel
+    - edit_own_content
+supervisor:
+  title: Supervisor
+  roles:
+    - access_control_panel
+    - edit_own_content
+    - edit_all_content

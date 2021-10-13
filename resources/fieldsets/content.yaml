@@ -1,0 +1,44 @@
+title: Content
+fields:
+  -
+    handle: content_blocks
+    field:
+      always_show_set_button: true
+      sets:
+        custom_html:
+          display: 'Custom HTML'
+          fields:
+            -
+              import: custom_html
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - underline
+        - superscript
+        - subscript
+        - anchor
+        - unorderedlist
+        - orderedlist
+        - quote
+        - horizontalrule
+        - image
+        - table
+        - removeformat
+      container: assets
+      save_html: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      display: 'Content Blocks'
+      type: bard
+      icon: bard
+      listable: hidden
+      instructions_position: above

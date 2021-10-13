@@ -1,0 +1,17 @@
+export_paths:
+  - config/app.php
+  - config/statamic/editions.php
+  - config/statamic/system.php
+  - resources/fieldsets
+  - resources/css
+  - resources/users
+  - resources/views
+  - .gitignore
+  - .env.example
+  - package.json
+  - README.md
+  - tailwind.config.js
+  - webpack.mix.js
+dependencies:
+  spatie/statamic-responsive-images: ^2.8
+  statamic/seo-pro: ^2.3

@@ -1,0 +1,18 @@
+title: 'Image Gallery'
+fields:
+  -
+    handle: files
+    field:
+      mode: list
+      container: assets
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      display: Files
+      type: assets
+      icon: assets
+      listable: hidden
+      instructions_position: above
+      validate:
+        - required
+        - image

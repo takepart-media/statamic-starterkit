@@ -1,0 +1,21 @@
+{
+    "name": "takepart/starterkit",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jakob Plöns",
+            "email": "jploens@takepart-media.de",
+            "homepage": "https://www.takepart-media.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "it@takepart-media.de"
+    },
+    "extra": {
+        "statamic": {
+            "name": "TAKEPART Starterkit",
+            "description": "The TAKEPART Starterkit for Statamic 3, used for all our CMS projects as starting point."
+        }
+    }
+}

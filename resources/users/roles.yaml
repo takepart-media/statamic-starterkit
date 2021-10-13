@@ -1,0 +1,32 @@
+access_control_panel:
+  title: 'Access Control Panel'
+  permissions:
+    - 'access cp'
+edit_own_content:
+  title: 'Edit own Content'
+  permissions:
+    - 'view pages entries'
+    - 'edit pages entries'
+    - 'create pages entries'
+    - 'delete pages entries'
+    - 'reorder pages entries'
+    - 'view assets assets'
+    - 'upload assets assets'
+edit_all_content:
+  title: 'Edit all Content'
+  permissions:
+    - 'view pages entries'
+    - 'edit pages entries'
+    - 'create pages entries'
+    - 'delete pages entries'
+    - 'publish pages entries'
+    - 'reorder pages entries'
+    - 'edit other authors pages entries'
+    - 'publish other authors pages entries'
+    - 'delete other authors pages entries'
+    - 'view assets assets'
+    - 'upload assets assets'
+    - 'edit assets assets'
+    - 'move assets assets'
+    - 'rename assets assets'
+    - 'delete assets assets'
