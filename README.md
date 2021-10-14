@@ -16,10 +16,13 @@ statamic new {sitename} takepart/starterkit
 - User roles and groups (`Author` & `Supervisor`)
 
 **Fieldsets**
-- A
+- Custom HTML
+- Image Gallery
+- Text Image
 
 **Included Addons**
 - [SEO Pro](https://statamic.com/addons/statamic/seo-pro/docs)
+- [Spatie Responsive Images](https://github.com/spatie/statamic-responsive-images)
 
 **Frontend**
 - Base header and footer
