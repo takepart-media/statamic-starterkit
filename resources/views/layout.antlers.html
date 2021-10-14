@@ -5,17 +5,30 @@
 
 <!doctype html>
 <html lang="{{ site:short_locale }}">
+    {{#
+        The head has an optimum order of placing child tags:
+        https://speakerdeck.com/csswizardry/get-your-head-straight?slide=39
+    #}}
     <head>
+        {{# meta charset, http-equiv, viewport #}}
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        {{# <title></title> (part of seo_pro, therefore not rendered here) #}}
+        {{# preconnect #}}
+        {{# <script src="" async></script> #}}
+        {{# CSS that includes @imports #}}
+        {{# Synchronous JS #}}
+        {{# Synchronous CSS #}}
+        <link rel="stylesheet" href="{{ mix src='css/site.css' }}">
+
+        {{# preload #}}
+        {{# <script src="" defer></script> #}}
+        {{# prefetch / prerender #}}
+        {{# Everything else ((SEO) meta tags, icons, open graph, ...) #}}
         {{ seo_pro:meta }}
 
-        <link rel="preload" as="style" href="{{ mix src='/css/site.css' }}">
-        <link rel="preload" as="script" href="{{ mix src='/js/site.js' }}">
-
-        <link rel="stylesheet" href="{{ mix src='css/site.css' }}">
     </head>
     <body>
 
