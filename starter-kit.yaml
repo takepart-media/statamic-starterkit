@@ -1,5 +1,6 @@
 export_paths:
   - config/app.php
+  - config/statamic/cp.php
   - config/statamic/editions.php
   - config/statamic/system.php
   - public/css
