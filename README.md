@@ -1,6 +1,4 @@
-<p align="center"><img src="https://statamic.com/assets/branding/Statamic-Logo+Wordmark-Rad.svg" width="400" alt="Statamic Logo" /></p>
-
-## TAKEPART Starterkit for Statamic
+# TAKEPART Starterkit for Statamic
 
 The starting point for each of our [Statamic 3](https://statamic.com/) projects. To start a project, install Statamic with the `takepartdev/starterkit` via CLI:
 
@@ -10,7 +8,7 @@ statamic new {sitename} takepartdev/starterkit
 
 ## Features
 
-**Core**
+#### Core
 - German language and date formats
 - Pro Edition enabled
 - User roles
@@ -21,16 +19,16 @@ statamic new {sitename} takepartdev/starterkit
     - `Author`
     - `Supervisor`
 
-**Fieldsets (also used within Bard field `content_blocks`)**
+#### Fieldsets (also used within Bard field `content_blocks`)
 - Custom HTML
 - Image Gallery
 - Text Image
 
-**Included Addons**
+#### Included Addons
 - [SEO Pro](https://statamic.com/addons/statamic/seo-pro/docs)
 - [Spatie Responsive Images](https://github.com/spatie/statamic-responsive-images)
 
-**Frontend**
+#### Frontend
 - Main layout file
 - Default template
 - Example antlers templates for all fieldsets
