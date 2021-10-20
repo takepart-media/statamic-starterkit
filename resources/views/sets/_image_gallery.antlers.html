@@ -1,0 +1,20 @@
+{{#
+	@name Sets: Image Gallery
+	@desc Renders images for gallery or carousel usage.
+#}}
+
+<section>
+
+    <div class="flex">
+        {{ files }}
+            <figure class="w-full">
+                {{ responsive:url class="w-full" }}
+
+                {{ if caption }}
+                    {{ partial:caption }}
+                {{ /if }}
+            </figure>
+        {{ /files }}
+    </div>
+
+</section>

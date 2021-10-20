@@ -6,10 +6,20 @@ fields:
       always_show_set_button: true
       sets:
         custom_html:
-          display: 'Custom HTML'
+          display: 'Individuelles HTML'
           fields:
             -
               import: custom_html
+        image_gallery:
+          display: Bildergalerie
+          fields:
+            -
+              import: image_gallery
+        text_image:
+          display: 'Bild & Text'
+          fields:
+            -
+              import: text_image
       buttons:
         - h2
         - h3

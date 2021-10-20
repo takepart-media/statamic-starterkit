@@ -2,10 +2,10 @@
 
 ## TAKEPART Starterkit for Statamic
 
-The starting point for each of our [Statamic 3](https://statamic.com/) projects. To start a project, install Statamic with the `takepart/starterkit` via CLI:
+The starting point for each of our [Statamic 3](https://statamic.com/) projects. To start a project, install Statamic with the `takepartdev/starterkit` via CLI:
 
 ```
-statamic new {sitename} takepart/starterkit
+statamic new {sitename} takepartdev/starterkit
 ```
 
 ## Features
@@ -13,9 +13,15 @@ statamic new {sitename} takepart/starterkit
 **Core**
 - German language and date formats
 - Pro Edition enabled
-- User roles and groups (`Author` & `Supervisor`)
+- User roles
+    - `Access Control Panel`
+    - `Edit Own Content`
+    - `Edit All Content`
+- User groups
+    - `Author`
+    - `Supervisor`
 
-**Fieldsets**
+**Fieldsets (also used within Bard field `content_blocks`)**
 - Custom HTML
 - Image Gallery
 - Text Image
@@ -25,7 +31,10 @@ statamic new {sitename} takepart/starterkit
 - [Spatie Responsive Images](https://github.com/spatie/statamic-responsive-images)
 
 **Frontend**
-- Base header and footer
+- Main layout file
+- Default template
+- Example antlers templates for all fieldsets
+- Default header (with navigation) and footer (with copyright)
 
 ## Statamic
 

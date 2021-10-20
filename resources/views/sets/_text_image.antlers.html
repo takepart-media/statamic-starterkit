@@ -1,0 +1,32 @@
+{{#
+	@name Set: Text Image
+	@desc Renders two-columned text and image besides.
+#}}
+
+<section>
+
+    <div class="flex space-x-8">
+        {{ if image_position === 'right' }}
+            <div class="prose w-full">
+                {{ text }}
+            </div>
+        {{ /if }}
+
+        <figure class="w-full">
+            {{ file }}
+                {{ responsive:url class="w-full" }}
+
+                {{ if caption }}
+                    {{ partial:caption }}
+                {{ /if }}
+            {{ /file }}
+        </figure>
+
+        {{ if image_position === 'left' }}
+            <div class="prose w-full">
+                {{ text }}
+            </div>
+        {{ /if }}
+    </div>
+
+</section>

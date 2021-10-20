@@ -9,7 +9,7 @@ fields:
       allow_uploads: true
       show_filename: true
       max_files: 1
-      display: File
+      display: Datei
       type: assets
       icon: assets
       width: 50
@@ -25,7 +25,7 @@ fields:
         left: Left
         right: Right
       default: left
-      display: 'Image Position'
+      display: Bildposition
       type: button_group
       icon: button_group
       width: 50

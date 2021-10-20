@@ -1,0 +1,38 @@
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: alt
+        field:
+          display: Alternativtext
+          type: text
+          instructions: 'Beschreibung des Bildes, vor allem für Barrierefreiheit und SEO.'
+          instructions_position: above
+          listable: hidden
+          input_type: text
+          antlers: false
+      -
+        handle: caption
+        field:
+          always_show_set_button: false
+          buttons:
+            - bold
+            - italic
+            - removeformat
+            - anchor
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: false
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          display: Bildunterschrift
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above

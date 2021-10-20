@@ -1,0 +1,14 @@
+{{#
+	@name Partial: Header
+	@desc Default header with main navigation
+#}}
+
+<header class="mb-24">
+    <strong>{{ site:name }}</strong>
+
+    <nav class="mt-2 flex gap-4">
+        {{ nav include_home="true" }}
+            <a href="{{ url }}" class="hover:underline {{ if is_current || is_parent }} text-gray-700 {{ else }} text-gray-500 {{ /if }}">{{ title }}</a>
+        {{ /nav }}
+    </nav>
+</header>

@@ -2,6 +2,9 @@ export_paths:
   - config/app.php
   - config/statamic/editions.php
   - config/statamic/system.php
+  - public/css
+  - public/js
+  - resources/blueprints
   - resources/fieldsets
   - resources/css
   - resources/users

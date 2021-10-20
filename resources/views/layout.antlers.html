@@ -30,15 +30,19 @@
         {{ seo_pro:meta }}
 
     </head>
-    <body>
+    <body class="my-16 mx-auto max-w-3xl">
 
         <a href="#start" class="sr-only focus:not-sr-only">
             Skip to content
         </a>
 
-        <main id="start" role="document">
+        {{ partial:header }}
+
+        <main id="start" role="document" class="space-y-8">
             {{ template_content }}
         </main>
+
+        {{ partial:footer }}
 
         <script src="{{ mix src='/js/site.js' }}"></script>
     </body>
