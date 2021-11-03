@@ -28,6 +28,7 @@
         {{# prefetch / prerender #}}
         {{# Everything else ((SEO) meta tags, icons, open graph, ...) #}}
         {{ seo_pro:meta }}
+        <meta name="csrf-token" content="{{ csrf_token }}">
 
     </head>
     <body class="my-16 mx-auto max-w-3xl">
@@ -43,6 +44,8 @@
         </main>
 
         {{ partial:footer }}
+
+        {{ oreos:popup }}
 
         <script src="{{ mix src='/js/site.js' }}"></script>
     </body>

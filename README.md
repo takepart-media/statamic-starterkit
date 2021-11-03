@@ -1,9 +1,9 @@
 # TAKEPART Starterkit for Statamic
 
-The starting point for each of our [Statamic 3](https://statamic.com/) projects. To start a project, install Statamic with the `takepartdev/starterkit` via CLI:
+The starting point for each of our [Statamic 3](https://statamic.com/) projects. To start a project, install Statamic with the `takepart-media/statamic-starterkit` via CLI:
 
-```
-statamic new {sitename} takepartdev/starterkit
+``` bash
+statamic new {sitename} takepart-media/statamic-starterkit
 ```
 
 ## Features
@@ -45,13 +45,13 @@ Statamic 3 is the flat-first, Laravel + Git powered CMS designed for building be
 
 To create and editable Starterkit instance locally, create a fresh Statamic installation with the Starterkit and the `--with-config`:
 
-```
-statamic new takepart-starterkit-dev takepart/starterkit --with-config
+``` bash
+statamic new takepart-starterkit-dev takepart-media/statamic-starterkit --with-config
 ```
 
 Export the starterkit to the desired location:
 
-```
+``` bash
 php please starter-kit:export {destination}
 ```
 

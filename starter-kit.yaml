@@ -12,6 +12,7 @@ export_paths:
   - resources/views
   - .gitignore
   - .env.example
+  - .editorconfig
   - package.json
   - README.md
   - tailwind.config.js

@@ -1,23 +1,26 @@
 module.exports = {
-  mode: 'jit',
+    mode: 'jit',
 
-  purge: {
-    content: [
-      './resources/**/*.antlers.html',
-      './resources/**/*.blade.php',
-      './content/**/*.md'
-    ]
-  },
-
-  theme: {
-    extend: {
-
+    purge: {
+        content: [
+            './addons/**/*.antlers.html',
+            './addons/**/*.antlers.php',
+            './resources/**/*.antlers.html',
+            './resources/**/*.antlers.php',
+            './resources/**/*.blade.php',
+            './content/**/*.md'
+        ]
     },
-  },
 
-  plugins: [
-    require('@tailwindcss/aspect-ratio'),
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
-  ],
+    theme: {
+        extend: {
+
+        },
+    },
+
+    plugins: [
+        require('@tailwindcss/aspect-ratio'),
+        require('@tailwindcss/forms'),
+        require('@tailwindcss/typography'),
+    ],
 }

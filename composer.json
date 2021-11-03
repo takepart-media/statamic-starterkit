@@ -1,6 +1,8 @@
 {
-    "name": "takepartdev/starterkit",
+    "name": "takepart-media/statamic-starterkit",
+    "description": "The TAKEPART Starterkit for Statamic 3, used for all our CMS projects as starting point.",
     "license": "proprietary",
+    "type": "statamic-starterkit",
     "authors": [
         {
             "name": "Jakob Ploens",
